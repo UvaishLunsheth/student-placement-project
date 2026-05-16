@@ -103,8 +103,10 @@ Through univariate distributions and correlation mapping, we uncovered the prima
 * **Baseline Advantage:** `college_tier` (-0.21) shows that being in a higher-tier college provides a notable baseline advantage for simply *getting* a job.
 
 **2. Do skills outweigh academic performance?**
- **Yes, significantly.** The placement rates for these segments reveal a stark reality:
 
+
+ **Yes, significantly.** The placement rates for these segments reveal a stark reality:
+ 
 * **High Skill + Low CGPA:** 95.81% Placement Rate
 * **High CGPA + Low Skill:** 85.34% Placement Rate
 Moreover,
