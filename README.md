@@ -98,27 +98,27 @@ Through univariate distributions and correlation mapping, we uncovered the prima
 
 **1. What factors most influence placement success?**
 
-* **Resume Strength:** `resume_score` (0.39) is the strongest single predictor of securing a placement.
-* **The Dealbreaker:** `backlogs` (-0.30) severely hurt placement chances. Having active backlogs is the strongest negative factor in the dataset.
-* **Baseline Advantage:** `college_tier` (-0.21) shows that being in a higher-tier college provides a notable baseline advantage for simply *getting* a job.
+* **Resume Strength:** `resume_score` (0.39) showed the strongest positive association with placement outcomes (0.39).
+* **The Dealbreaker:** demonstrated the strongest negative relationship (-0.30), indicating unresolved academic backlogs significantly reduce placement probability.
+* **Baseline Advantage:** `college_tier` (-0.21) showed a moderate influence on initial placement opportunities.
 
 **2. Do skills outweigh academic performance?**
 
-
- **Yes, significantly.** The placement rates for these segments reveal a stark reality:
- 
+Segment analysis revealed:
 * **High Skill + Low CGPA:** 95.81% Placement Rate
 * **High CGPA + Low Skill:** 85.34% Placement Rate
 Moreover,
-*  `skill_score` (0.28) and `coding_score` (0.21) are major drivers of placement.
-* `cgpa` (0.09) has a surprisingly low correlation with placement success. Companies prioritize competent coders with clean academic records over academic perfectionists.
+*  `skill_score` (0.28) and `coding_score` (0.21) were more strongly associated with placement outcomes.
+* `cgpa` (0.09) had comparatively lower influence.
+
+These findings suggest technical capability may contribute more strongly to placement success than academic performance alone.
 
 **3. What drives higher salary packages?**
 
 * Once a student passes the baseline placement check, the rules change entirely. **Technical skills equal higher pay.**
-* `skill_score` (0.66) has a massive, undeniable impact on securing premium salaries.
-* Hard skills like `dsa_skill` (0.33) and `python_skill` (0.33) directly push students into higher pay brackets.
-* Interestingly, `college_tier` (0.007) has practically zero impact on the *amount* of the salary. Tier helps you get the job, but skills dictate the paycheck.
+* `skill_score` showed a strong relationship with salary growth (0.66).
+* Hard skills like `dsa_skill` (0.33) and `python_skill` (0.33) were positively associated with higher salary packages.
+* Interestingly, `college_tier` (0.007) had minimal relationship with salary levels.
 
 **4. Actionable Recommendations for Students:**
 
