@@ -129,6 +129,19 @@ These findings suggest technical capability may contribute more strongly to plac
 
 ---
 
+## 🧬 Feature Engineering Summary
+
+To optimize the dataset for machine learning algorithms, the following transformations were applied:
+
+* **Feature Creation (Super Features):** * `total_experience`: Combined `internships` and `projects` to create a unified signal for practical hustle, yielding a stronger positive correlation (0.26) than the individual metrics.
+* `has_backlog`: Converted raw backlog counts into a harsh, binary "Red Flag" (1 = Yes, 0 = No) to provide models with a cleaner decision boundary.
+
+
+
+---
+
+
+
 ## 🚧 Work in Progress
 
 * ~~Exploratory Data Analysis (EDA)~~ *(Completed)*
